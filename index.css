@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formContainer {
+    max-width: 400px;
+    width: 50vw;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center; /* Center the text within the button */
+    display: block; /* Make it a block-level element to center it horizontally */
+    margin: 0 auto; /* Center horizontally using auto margins */
+}
+
+#userDataContainer {
+    text-align: center;
+}
+
+#userData {
+    margin-top: 20px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: black;
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+}
+/* Add this to your index.css file */
+.userDataTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.userDataTable th, .userDataTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.userDataTable th {
+    background-color: #f2f2f2;
+}
+
